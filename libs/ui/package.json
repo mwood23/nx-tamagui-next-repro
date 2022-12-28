@@ -1,0 +1,12 @@
+{
+  "name": "@my/ui",
+  "scripts": {
+    "tsc": "tsc --noEmit -p tsconfig.lib.json",
+    "test": "jest --passWithNoTests",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint-fix": "npm run lint -- --fix",
+    "prettier": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
+    "prettier-fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+    "clean": "rimraf {node_modules,dist}"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "serve": "NODE_ENV=production next start --port 8151",
+    "lint": "next lint"
+  }
+}
